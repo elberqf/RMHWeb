@@ -1,0 +1,33 @@
+mat-form-field[formFieldMin] {
+  .mat-form-field-wrapper {
+    border-radius: 1rem;
+    margin: 0.1rem 0 !important;
+    padding: 0 !important;
+    padding-bottom: 0.9rem !important;
+  }
+
+  .mat-form-field-infix {
+    padding: 0.35rem 0 0.45rem 0;
+  }
+
+  .mat-form-field-label {
+    top: 1.2rem;
+  }
+
+  &.mat-form-field-should-float {
+    .mat-form-field-label {
+      transform: translateY(-0.95rem) scale(0.75) !important;
+    }
+  }
+}
+
+
+button.mat-button-base {
+  border-radius: 2rem;
+  // padding: .5rem;
+}
+
+.mat-form-field{
+  width: auto;
+  min-width: 1rem;
+}
